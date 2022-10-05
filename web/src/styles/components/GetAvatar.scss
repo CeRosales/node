@@ -1,0 +1,31 @@
+@import '../core/variables';
+@import '../core/reset';
+
+.components {
+    display: flex;
+    padding-bottom: 20px;
+
+    &__btnAddImage {
+        display: flex;
+        background-color: $colorMaximumBluePurple;
+        color: $colorWhite;
+        border-radius: 3px;
+        align-items: center;
+        padding: 10px;
+        margin-right: 30px;
+        
+        cursor: pointer;
+    }
+
+    &__hidden {
+        display: none;
+    }
+
+    &__square {
+        width: 40px;
+        height: 40px;
+        border: 1px solid $colorBabyBlueEyes;
+        background-size: cover;
+        background-position: center;
+    }
+}
